@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background-color: rgb(244, 247, 252, 0.75);
+  backdrop-filter: blur(4px);
+  flex: 0 0 auto;
+  bottom: 0;
+  position: sticky;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.36px;
+}
+
+.rowsPage {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  column-gap: 20px;
+}
+
+/* 
+.tableFooter {
+  background-color: #f1f1f1;
+  padding: 8px 0px;
+  width: 100%;
+  font-weight: 500;
+  text-align: left;
+  font-size: 16px;
+  color: #2c3e50;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.button {
+  border: none;
+  padding: 7px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 4px;
+  margin-left: 4px;
+}

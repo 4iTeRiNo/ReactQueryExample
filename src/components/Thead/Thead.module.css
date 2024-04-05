@@ -1,0 +1,31 @@
+.thead {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 104px;
+  max-height: 104px;
+  background-color: var(--background-header);
+}
+.column {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.content {
+  flex-grow: 1;
+  width: clamp(36px, 25%, 250px);
+  padding: 8px;
+  font-weight: 600;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.44px;
+  font-size: 11px;
+  font-style: normal;
+}
+
+.content:first-child {
+  width: 5%;
+}
+.content:last-child {
+  width: 10%;
+}

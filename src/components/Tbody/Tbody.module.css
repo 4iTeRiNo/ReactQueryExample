@@ -1,0 +1,42 @@
+.tbody {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 calc(100vh - 144px - 50px);
+}
+
+.rows {
+  display: flex;
+}
+
+.rows:nth-child(even) {
+  background-color: var(--background-td-odd);
+}
+
+.content {
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.deuce {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.value {
+  flex-grow: 1;
+  width: clamp(36px, 25%, 250px);
+  padding: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.value:first-child {
+  width: 5%;
+}
+
+.value:last-child {
+  width: 10%;
+}
